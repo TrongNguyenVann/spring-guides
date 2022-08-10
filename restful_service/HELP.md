@@ -20,9 +20,12 @@ These additional references should also help you:
 
 * [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
 
+### Build and Run
+Gradle: `gradle bootRun`
+Maven: `mvn spring-boot:run`
 
-### Build Project:
-`gradle build`
+### Build Project
+`gradle build` or `mvn clean package`
 
-### Run application:
+### Run application
 `java -jar build\libs\restful_service-0.0.1-SNAPSHOT.jar`
